@@ -150,7 +150,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
                         var chat = messages[index];
 
                         return chatBubble(
-                          chatText: chat.text,
+                          chatText: chat.text != null ? chat.text : '',//changed
                           type: chat.type,
                         );
                       }),
