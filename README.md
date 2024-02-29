@@ -1,16 +1,7 @@
 # voicegpt
 
-A new Flutter project.
+A mobile application built using Flutter.It runs on voice command.and answers the question using ChatGPT API.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This uses speech to text plugin to convert voice commands to text.
+The text is fetched by OpenAI API and the answer is displayed in text.
